@@ -26,7 +26,7 @@ public class cafe21 {
         System.out.println("Item Pembelian" + jumlahkopi + "kopi" + jumlahteh + "teh" + jumlahroti + "roti" );
         System.out.println("Nominal Bayar" + nominalbayar);
         System.out.println("Nominal Int" + nominalInt);
-        System.out.println("Totalbyte" + totalbyte);
+        System.out.println("Totalbyte" + totalbytetrue);
     }
     
 }
