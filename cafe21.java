@@ -19,11 +19,14 @@ public class cafe21 {
 
         totalharga = (jumlahkopi*hargakopi) + (jumlahteh*hargateh) + (jumlahroti*hargaroti);
         nominalbayar = totalharga - (diskon*totalharga);
+        int nominalInt = (int) nominalbayar;
+        byte totalbyte = (byte) totalharga;
 
         System.out.println("keanggotaan" + keanggotaan);
         System.out.println("Item Pembelian" + jumlahkopi + "kopi" + jumlahteh + "teh" + jumlahroti + "roti" );
         System.out.println("Nominal Bayar" + nominalbayar);
-
+        System.out.println("Nominal Int" + nominalInt);
+        System.out.println("Totalbyte" + totalbyte);
     }
     
 }
